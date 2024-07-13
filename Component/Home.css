@@ -1,0 +1,527 @@
+
+body {
+margin: 0;
+padding: 0;
+    background-color: rgba(17, 10, 32, 0.919);
+
+}
+
+
+
+/* Sidebar */
+
+.brand-logo{
+   border: 2px solid rgb(21, 21, 53);
+    border-radius: 50%;
+background-color: #969595;
+}
+
+#sidebar {
+   
+    background-attachment: fixed;
+    list-style: none;
+    border: 1px solid rgb(86, 77, 77);
+    
+
+}
+.nav-icons{
+padding-top: 3rem; 
+
+}
+
+.nav-link{
+    color: white;
+
+}
+.nav-item{
+  padding-right: 26rem;
+}
+.nav-icons  svg{
+    width: 1.4rem;
+}
+
+li{
+    padding: 1.6rem 0;
+}
+
+.exit svg{
+    padding: 16rem 0;
+    width: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+
+}
+#sidebar.active {
+    
+    min-width: 70px;
+    max-width: 70px;
+    text-align: center
+
+}
+
+
+#sidebar.active ul.components li a {
+    padding: 10px 0
+}
+
+
+#sidebar.active img {
+  padding: 4px;
+    width: 2.4rem;
+    border-radius: 20px;
+}
+
+#sidebar.active .footer {
+    display: none;
+}
+
+#sidebar .logo {
+    
+    color: #10a2eb;
+    
+    
+}
+
+.next-btn{
+    width: 1rem;
+   border-radius: 5px;
+
+}
+.next-btn:hover{background-color: #000;
+  
+}
+
+#sidebar ul.components {
+    padding: 0;
+}
+
+
+
+#sidebar ul li {
+    font-size: 16px
+}
+
+.wrapper{
+    background-attachment: fixed;
+}
+
+#sidebar ul li a {
+    padding: 10px 30px;
+    
+    
+}
+
+#sidebar ul li a span {
+    margin-right: 15px
+}
+
+
+
+#sidebar ul li a:hover {
+    color: #fff
+}
+
+#sidebar ul li.active>a {
+    background: 0 0;
+    color: #fff
+}
+
+ 
+/* Navbar */
+
+#content {
+    width: 100%;
+    padding: 10px;
+    min-height: 100vh;
+}
+.search-container{
+padding-right: 7rem;
+border-radius: 9rem;
+}
+.searchbar{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding: 6px;
+    
+    width: 11rem;
+    background-color: rgba(255, 252, 252, 0.07);
+  border :1px solid rgb(8, 8, 41);
+  color: #fff6f6;
+   border: none;
+
+   
+}
+.search-container button{
+border-bottom-right-radius: 1rem;
+border-top-right-radius: 1rem; 
+background-color: rgba(255, 252, 252, 0.07);
+  border :1px solid rgb(8, 8, 41);
+  color: #b2acac;
+  cursor: pointer;
+padding: 6px;
+width: 40px;
+border: none;
+
+}
+.search-container button:hover{
+    color: #fffbfb;
+}
+.bell{ 
+    border-width: 0.4cm;
+    width: 1.4rem;
+      margin-right:3vw;
+      cursor: pointer;
+}
+
+
+.avatar img{
+    width: 2rem;
+    border-radius: 9rem;
+    cursor: pointer;
+}
+
+/* Hero section */
+
+.hero{
+display: flex;
+padding-left: 2rem;
+
+}
+
+.card1{
+color: #fff;
+width: 45%;
+height: 18rem;
+border: 1px solid rgb(79, 80, 78);
+
+margin-right: 1rem;
+border-radius:1rem;
+padding:3rem;
+overflow: hidden;
+background-size: cover;
+background:url("https://miro.medium.com/v2/resize:fit:1200/1*anGjP_pJmpUU3ri8ualL0A.png") ;
+}
+.card-title{
+font-size: 2rem;
+font-weight: 700;
+
+}
+.card-text{
+   font-weight: 400;
+font-size: 0.9rem;
+padding-top: 1rem;
+}
+.button{
+text-align: center;
+width: 7rem;
+font-weight: 600;
+    border-radius: 0.3rem;
+    color: #fbfbfbdd;
+   border: 1px solid rgb(3, 3, 27);
+   background-color: #1c1738d5;
+  
+  overflow: hidden;
+   padding: 0.2rem;
+}
+.learn-more{
+    padding-top: 3rem;
+   
+  
+}
+.card2{
+    overflow: hidden;
+    color: #fff;
+    width: 45%;
+    height: 18rem;
+ 
+    border-radius:1rem;
+margin-left: 1rem;
+background-size: contain;
+
+background:url("https://img.freepik.com/premium-photo/background-with-index-graph-black-background_763713-5480.jpg") ;
+}
+
+.dropdown-btn ,select{
+margin: 2rem;
+width: 6.3rem;
+background-color: #000;
+    border-radius: 5px;
+    background-color: #b0afb446;
+    color: rgb(235, 222, 222);
+}
+.dropdown-btn,option{
+    color: #000;
+    background-color: #10a2eb;
+}
+
+
+
+.box1 {
+    margin-right: 0.5rem;
+    background: url('https://static.vecteezy.com/system/resources/previews/002/623/312/large_2x/blue-candlestick-chart-on-blue-background-trading-graphic-design-concept-financial-stock-market-cryptocurrency-graph-illustration-vector.jpg'); 
+ background-size: cover;
+
+    border: 1px solid #cccccc77;
+    border-radius: 1rem;
+    height: 10rem;
+    width:20%;
+    overflow: hidden;
+
+  }
+  .converter{
+    display: flex;
+  padding: 1.4rem;
+  }
+  .converter .l{
+    margin-right: 1rem;
+  }
+.converter .r{
+color: rgb(5, 191, 5);
+}
+.converter .ri{
+    color: red;
+}
+  .converter p{
+  text-align: top left;
+    color: rgb(210, 204, 204);
+ display: flex;
+ font-size: 0.8rem;
+ font-weight: 600;
+}
+ .converter svg{
+    padding-bottom: 8rem;
+    margin-left: 11px;
+    margin-right: 11px;
+    width: 13px;
+ }
+
+.box2{
+    background: url('https://static.vecteezy.com/system/resources/previews/002/623/312/large_2x/blue-candlestick-chart-on-blue-background-trading-graphic-design-concept-financial-stock-market-cryptocurrency-graph-illustration-vector.jpg');
+    margin-right: 0.5rem;
+    border: 1px solid #cccccc72;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 20%;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.box3{
+    background: url('https://media.istockphoto.com/id/966209152/vector/abstract-financial-chart-with-candlestick-and-numbers-in-stock-market-on-blue-color-background.jpg?s=612x612&w=0&k=20&c=9SWOtnWXeHt-K63MzhWQszWVFavqeTvGpY0kYFlrrX4=');
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    border: 1px solid #cccccc72;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+    overflow: hidden;
+}
+.box4{
+    background: url('https://static.vecteezy.com/system/resources/previews/002/623/312/large_2x/blue-candlestick-chart-on-blue-background-trading-graphic-design-concept-financial-stock-market-cryptocurrency-graph-illustration-vector.jpg'); 
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    background-size: cover;
+    border: 1px solid #cccccc77;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+    overflow: hidden;
+}
+.box5{
+     background: url('https://static.vecteezy.com/system/resources/previews/002/623/312/large_2x/blue-candlestick-chart-on-blue-background-trading-graphic-design-concept-financial-stock-market-cryptocurrency-graph-illustration-vector.jpg');
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    background-size: cover;
+    border: 1px solid #cccccc79;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+    overflow: hidden;
+    
+}
+
+ .box-body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top:4rem ;
+    padding-right: 1.3rem;
+ }
+  
+
+/* Footer */
+
+.footer{
+padding: 3rem;
+display: flex;
+}
+.footer-box1{
+    background: url('https://thumbs.dreamstime.com/b/stock-exchange-market-graph-analysis-background-neural-network-ai-generated-279217017.jpg');
+   background-size: cover;
+    border: 1px solid rgb(84, 84, 91);
+    border-radius: 1rem;
+    height: 16rem;
+    display: flex;
+    width:42%;
+    margin-right: 1rem;
+ background-color: #0f0c24d0;
+    opacity: 0.8;
+}
+.footer-box1 h4{
+     color: #faf9f9;
+     font-weight: 550;
+     font-size: 1.4rem;
+     padding: 1rem;
+}
+
+.dropdown-footer, .optn{
+    width: 5.7rem;
+    border-radius: 5px;
+    background-color: #170e3e;
+    color: rgb(255, 255, 255);
+   margin: 1.7rem;
+   font-weight: 400;
+   overflow: hidden;
+   margin-left: 10rem;
+}
+
+.footer-box2{
+ border: 1px solid rgb(82, 82, 88);
+    border-radius: 1rem;
+    height: 16rem;
+    
+    background-size: cover;
+    width:19%;    
+    border-radius: 1rem;
+    margin-right: 1rem;
+    background-color: #0f0c24d0;
+   
+}
+.footer-box2 h4{
+    color: #eadfdf;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 0.4rem;
+}
+.footer-box2 img{
+    width: 2rem;
+    border-radius: 8rem;
+    margin:  15px;
+    margin-bottom: 2rem;
+}
+
+.footer-transfer-btn{
+margin-top: 2rem;
+overflow: hidden;
+text-align: center;
+justify-content: center;
+}
+.t-amount{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    color: rgb(149, 146, 146);
+    padding-right:3rem;
+    text-align: center;padding-top: 1rem;
+}
+.t-amount p{
+    padding-left: 1rem;
+    color: #f1e6e6;
+}
+.t-btn{
+    border-radius: 8px;
+    width: 10.3rem;
+    overflow: hidden;
+    color: #fdf6f6;
+    background-color: #9258c8f6;
+}
+.t-btn svg{
+    width: 2.2rem;
+    height: 1.3rem;
+    color: #fdfdfd;
+}
+.footer-box3{
+    border: 1px solid rgb(73, 73, 77);
+    border-radius: 1rem;
+   background: url('https://th.bing.com/th/id/OIP.gcY9TPDUm--nQxN1wd2vRwAAAA?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    height: 16rem;
+    width:33%;
+ 
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+ @media(max-width: 768px)  {
+    body {
+  padding: 0;
+  margin: 0;
+    }
+    #content {
+        width: 100%;
+        padding: 10px;
+        min-height: 100vh;
+    }
+    .search-container{
+    padding-right: 7rem;
+    border-radius: 9rem;
+    }
+    .searchbar{
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        padding: 6px;
+        
+        width: 11rem;
+        background-color: rgba(255, 252, 252, 0.07);
+      border :1px solid rgb(8, 8, 41);
+      color: #fff6f6;
+       border: none;
+    
+       
+    }
+    .search-container button{
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem; 
+    background-color: rgba(255, 252, 252, 0.07);
+      border :1px solid rgb(8, 8, 41);
+      color: #b2acac;
+      cursor: pointer;
+    padding: 5px;
+    width: 35px;
+    border: none;
+    
+    }
+    .search-container button:hover{
+        color: #fffbfb;
+    }
+    .bell{ 
+        border-width: 0.2cm;
+        width: 1.3rem;
+          margin-right:2vw;
+          cursor: pointer;
+          
+    }
+    
+    
+    .avatar img{
+        width: 1rem;
+        border-radius: 9rem;
+        cursor: pointer;
+    
+    }
+   
+}
